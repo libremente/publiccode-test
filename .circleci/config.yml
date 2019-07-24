@@ -22,5 +22,5 @@ jobs:
       - checkout
 
       # specify any bash command here prefixed with `run: `
-      - run: go get -u github.com/italia/publiccode-parser-go/pcvalidate
+      - run: go get github.com/italia/publiccode-parser-go/pcvalidate
       - run: pcvalidate publiccode.yml 
