@@ -21,5 +21,5 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: go get github.com/italia/publiccode-parser-go/pcvalidate
+      - run: go get -v github.com/italia/publiccode-parser-go/pcvalidate
       - run: /go/bin/pcvalidate publiccode.yml 
