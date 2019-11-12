@@ -19,8 +19,7 @@ jobs:
     ####   /go/src/bitbucket.org/circleci/go-tool
     #working_directory: /go/src/github.com/{{ORG_NAME}}/{{REPO_NAME}}
     steps:
-        #- checkout
-
-      # specify any bash command here prefixed with `run: `
+      - checkout
+      - run: ls
       - run: go get github.com/italia/publiccode-parser-go/pcvalidate
-      - run: pcvalidate publiccode.yml 
+      - run: /go/bin/pcvalidate publiccode.yml 
