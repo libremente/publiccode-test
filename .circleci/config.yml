@@ -1,6 +1,6 @@
 # Publiccode.yml test CircleCI config.yml 
 version: 2
-jobs:
+build:
   publiccode-test:
     docker:
       # specify the version
