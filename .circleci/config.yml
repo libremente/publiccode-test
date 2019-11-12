@@ -24,4 +24,4 @@ jobs:
       - run: go get -v github.com/italia/publiccode-parser-go/pcvalidate
       - run: /go/bin/pcvalidate publiccode.yml 
       - store_test_results:
-        path: test-results
+          path: test-results
