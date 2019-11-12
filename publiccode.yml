@@ -6,6 +6,7 @@ softwareVersion: "1.0"
 releaseDate: "2017-04-15"
 platforms:
   - web
+logo: asd.png
 
 categories:
   - data-visualization
